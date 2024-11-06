@@ -1,0 +1,24 @@
+{
+    "liveSassCompile.settings.formats":[
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "/src/stylesheets/css/"
+        },
+        {
+            "extensionName": ".min.css",
+            "format": "compressed",
+            "savePath": "/src/stylesheets/css"
+        }
+    ],
+    "liveSassCompile.settings.excludeList": [
+       "**/node_modules/**",
+       ".vscode/**"
+    ],
+    "liveSassCompile.settings.generateMap": false,
+    "liveSassCompile.settings.autoprefix": [
+        "defaults",
+        "last 2 versions"
+    ],
+    "nuxt.isNuxtApp": false
+}
